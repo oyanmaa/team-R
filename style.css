@@ -1,0 +1,28 @@
+@charset "utf-8";
+.toppage{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: #ffffff;
+    border: solid 2px #FF4800;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.pagetop__arrow{
+    height: 10px;
+    width: 10px;
+    border-top: 3px solid #FF4800;
+    border-right: 3px solid #FF4800;
+    transform: translateY(20%) rotate(-45deg);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #FBF4EA;
+}
