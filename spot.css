@@ -1,0 +1,37 @@
+p.box {
+   border-bottom: 1px solid rgb(0, 0, 0);
+}
+body {
+    background-color: #FBF4EA;
+    font-family: "Noto Sans JP", sans-serif;
+}
+/* 全体を中央にする */
+.wrapper {
+  width: 80%;      /* 全体の幅（調整OK） */
+  max-width: 900px; /* PCで広くなりすぎないように */
+  margin: 0 auto;   /* 水平中央配置 */
+  padding: 20px;    /* 内側余白 */
+}
+
+/* iframeを幅100%にしてスマホ対応 */
+.wrapper iframe {
+  width: 92%;
+  height: 250px;
+  margin-left: 70px;
+}
+
+h2 {
+    font-size: 20px;
+}
+.map-area {
+  width: 20%;        /* ← もっと小さく（調整可） */
+  margin: 20px auto; /* 中央寄せ */
+}
+.address{
+  display: flex;
+  gap: 10px;
+}
+
+.address p:first-child {
+  margin-right: 30px;   /* ← ここで好きな幅の余白を指定 */
+}
