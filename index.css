@@ -1,0 +1,65 @@
+body {
+  font-family: "Noto Sans JP";
+  background-color: #FBF4EA;
+}
+
+header {
+  background-color: #FF4800;
+}
+
+img {
+  width: 350px;
+}
+
+.spot-img {
+  object-fit: cover;
+}
+
+.spot-text {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.header-title {
+  color: white;
+  font-size: 40px;
+}
+
+.star {
+  color: #FFBB00;
+  margin: 0;
+}
+
+.star-num {
+  color: #FF4800;
+  font-weight: bold;
+  margin: 0 5px 0 0;
+}
+
+.flex {
+  display: flex;
+  gap: 150px;
+  margin: 8px auto;
+  width: 1144px;
+}
+
+.favorite {
+  font-size: 12px;
+  margin: 8px 0 0 0;
+}
+
+.recommend {
+  display: flex;
+  font-size: 24px;
+}
+
+.border {
+  border: #333333 1px solid;
+  width: 1144px;
+  margin: 16px auto;
+}
